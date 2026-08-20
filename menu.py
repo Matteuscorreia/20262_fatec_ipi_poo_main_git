@@ -19,3 +19,8 @@ def menu():
             a = float(input("Digite o primeiro numero: "))
             b = float(input("Digite o segundo numero: "))
             print(f"Resultado: {calculadora.subtrair(a, b)}")
+
+        elif opcao == "3":
+            a = float(input("Digite o primeiro numero: "))
+            b = float(input("Digite o segundo numero: "))
+            print(f"Resultado: {calculadora.multiplicar(a, b)}")
