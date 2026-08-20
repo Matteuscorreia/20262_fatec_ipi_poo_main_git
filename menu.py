@@ -24,3 +24,8 @@ def menu():
             a = float(input("Digite o primeiro numero: "))
             b = float(input("Digite o segundo numero: "))
             print(f"Resultado: {calculadora.multiplicar(a, b)}")
+
+        elif opcao == "4":
+            a = float(input("Digite o primeiro numero: "))
+            b = float(input("Digite o segundo numero: "))
+            print(f"Resultado: {calculadora.dividir(a, b)}")
